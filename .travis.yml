@@ -7,10 +7,6 @@ group: edge
 services:
   - docker
 
-branches:
-  only:
-    - master
-
 env:
   - TARGET="56"
   - TARGET="70"
